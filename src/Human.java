@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-
-public class Human implements Comparable<Human>{
+public class Human implements java.lang.Comparable<Human> {
     private String name;
     private double salario;
 
@@ -9,9 +7,14 @@ public class Human implements Comparable<Human>{
         this.salario = salario;
     }
 
-    public String getName() { return this.name; }
 
-    public double getSalario() { return this.salario; }
+    public String getName() {
+        return this.name;
+    }
+
+    public double getSalario() {
+        return this.salario;
+    }
     @Override
     public int compareTo(Human other) {
         if (this.salario == other.getSalario()) {

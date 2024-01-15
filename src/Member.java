@@ -1,4 +1,4 @@
-public class Member implements Comparable<Member> {
+public class Member implements java.lang.Comparable<Member> {
     private String name;
     private int height;
 
