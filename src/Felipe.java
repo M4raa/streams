@@ -1,25 +1,24 @@
-public class Felipe  implements java.lang.Comparable<Felipe>{
-    private int tareas;
-    private int tarea;
-    private int tiempo;
+import java.util.ArrayList;
 
-    public Felipe(int tareas, int tarea, int tiempo){
-        this.tareas=tareas;
-        this.tarea=tarea;
-        this.tiempo=tiempo;
-    }
-    public int getTareas() {
-        return tareas;
-    }public int getTarea() {
-        return tarea;
-    }
-    public int getTiempo(){
-        return tiempo;
-    }
+public class Felipe {
+    public static void main(String[] args) {
+        ArrayList<Tareas> tareas = new ArrayList<>();
+        tareas.add(new Tareas(1,6));
+        tareas.add(new Tareas(2,4));
+        tareas.add(new Tareas(3,5));
 
-    @Override
-    public String toString() {
-        return String.valueOf(this.tarea) + String.valueOf(this.tiempo);
-    }
+        tareas.stream()
+                .sorted()
+                .forEach(System.out::println);
 
+        System.out.println("---");
+
+        tareas = new ArrayList<>();
+        tareas.add(new Tareas(30,7));
+        tareas.add(new Tareas(30,2));
+
+        tareas.stream()
+                .sorted()
+                .forEach(System.out::println);
+    }
 }
