@@ -20,19 +20,11 @@ public class LoteriaJusta implements Comparable<LoteriaJusta>{
     }
     @Override
     public int compareTo(LoteriaJusta other){
-        if (this.dinero> other.getDinero()){
-            if (this.premios > other.getPremios()){
-                return 0;
-            }else return 1;
-        } else if (this.dinero < other.getDinero()) {
-            if (this.premios < other.getPremios()){
-                return 0;
-            }else return -1;
-        }else {
-            if (this.premios == other.getPremios()){
-                return 0;
-            }else return 1;
+        if (this.dinero == other.dinero){
+            return this.premios - other.premios;
+        } else {
+            return this.dinero - other.dinero;
         }
     }
-
 }
+

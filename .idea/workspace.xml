@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41ea414d-a500-4608-ac14-db4474ad8db6" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/Loteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoteriaJusta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tareas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Nino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ninos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objetos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tutankamon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Felipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoteriaJusta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoteriaJusta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705309930767</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update">
+      <option name="closed" value="true" />
+      <created>1705400162442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705400162442</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
